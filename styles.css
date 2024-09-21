@@ -1,0 +1,130 @@
+/* Custom Font */
+body {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #f0f8ff; /* Light background */
+}
+
+/* Navigation Styles */
+nav {
+    transition: background-color 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+nav.scrolled {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #ff4081 !important; /* Pink hover effect */
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(135deg, #42a5f5, #ff7043);
+    color: #fff;
+    padding: 100px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+
+#download-resume {
+    background: linear-gradient(135deg, #8e24aa, #ff4081);
+    border: none;
+    color: #fff;
+    transition: background 0.3s ease;
+}
+
+#download-resume:hover {
+    background: linear-gradient(135deg, #ff4081, #8e24aa);
+}
+
+/* Section Headings */
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #424242;
+}
+
+/* About Section */
+#about {
+    background: linear-gradient(135deg, #81c784, #64b5f6);
+    color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+/* Projects Section */
+#projects {
+    background: linear-gradient(135deg, #ffca28, #ff7043);
+    color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: #424242;
+}
+
+.card-text {
+    color: #616161;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #8e24aa, #ff4081);
+    border: none;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #ff4081, #8e24aa);
+}
+
+/* Contact Section */
+#contact {
+    background: linear-gradient(135deg, #42a5f5, #7e57c2);
+    color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-icon {
+    transition: transform 0.3s ease, color 0.3s ease;
+    color: #fff;
+}
+
+.contact-icon:hover {
+    color: #ff4081; /* Pink hover effect */
+    transform: scale(1.1);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #424242;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Animations */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
