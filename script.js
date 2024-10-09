@@ -29,10 +29,10 @@ const projects = [
         link: 'https://github.com/Sankr20/API-Automation-Testing-for-Simple-Books-API'
     },
     {
-        "title": "End-to-End Automation Framework with Playwright",
-        "description": "An advanced automation framework built using Playwright and JavaScript, designed to automate end-to-end testing for web applications. The framework includes features like retry mechanisms, video and screenshot capturing on failure, Jenkins CI/CD integration, and Allure reporting.",
-        "tools": "Playwright, JavaScript, Jenkins, Allure",
-        "link": "https://github.com/Sankr20/Playwright-End-to-End-Automation-Framework"
+        title: "End-to-End Automation Framework with Playwright",
+        description: "An advanced automation framework built using Playwright and JavaScript, designed to automate end-to-end testing for web applications. The framework includes features like retry mechanisms, video and screenshot capturing on failure, Jenkins CI/CD integration, and Allure reporting.",
+        tools: "Playwright, JavaScript, Jenkins, Allure",
+        link: "https://github.com/Sankr20/Playwright-End-to-End-Automation-Framework"
     }
     
 ];
