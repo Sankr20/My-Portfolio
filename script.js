@@ -14,7 +14,6 @@ document.getElementById('confirm-download').addEventListener('click', function()
     $('#resumeModal').modal('hide'); // Close modal after download
 });
 
-// Sample projects array
 const projects = [
     {
         title: 'E-commerce Automation Framework',
@@ -22,13 +21,20 @@ const projects = [
         tools: 'Java, Selenium WebDriver, TestNG, Maven',
         link: 'https://github.com/Sankr20/Ecommerce-Site-Automation-Frame-Work-Design.git'
     },
-    // Add more project objects here
+
     {
         title: 'End-to-End API Testing for Simple Books API',
         description: 'A complete API automation testing suite for the Simple Books API, developed with Postman and Newman, designed to validate functionality, security, and performance through comprehensive automated tests.',
         tools: 'Postman, Newman, JavaScript',
         link: 'https://github.com/Sankr20/API-Automation-Testing-for-Simple-Books-API'
     }
+    {
+        "title": "End-to-End Automation Framework with Playwright",
+        "description": "An advanced automation framework built using Playwright and JavaScript, designed to automate end-to-end testing for web applications. The framework includes features like retry mechanisms, video and screenshot capturing on failure, Jenkins CI/CD integration, and Allure reporting.",
+        "tools": "Playwright, JavaScript, Jenkins, Allure",
+        "link": "https://github.com/Sankr20/Playwright-End-to-End-Automation-Framework"
+    }
+    
 ];
 
 // Function to dynamically add projects to the DOM
