@@ -10,7 +10,7 @@ window.onscroll = function() {
 
 // Resume Download Button
 document.getElementById('confirm-download').addEventListener('click', function() {
-    window.open('resume.pdf', '_blank'); // Replace with actual path if needed
+    window.open('SANKARANARAYANAN - Resume.pdf', '_blank'); // Replace with actual path if needed
     $('#resumeModal').modal('hide'); // Close modal after download
 });
 
